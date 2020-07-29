@@ -7,14 +7,32 @@
 //
 
 import UIKit
+import youtube_ios_player_helper_swift
+import YoutubePlayer_in_WKWebView
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController  {
+    @IBOutlet var plaryerView: WKYTPlayerView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        plaryerView.delegate = self
+        //plaryerView.load(videoId: "N4IlPC34Syc")
+        plaryerView.load(withVideoId: "N4IlPC34Syc")
+        plaryerView.load(withVideoId: "N4IlPC34Syc", playerVars: ["playsinline":1])
+        
+        
     }
 
 
 }
 
+
+extension ViewController : WKYTPlayerViewDelegate {
+    //키자마자 바로 시작하는거
+    func playerViewDidBecomeReady(_ playerView: WKYTPlayerView) {
+        playerView.playVideo()
+    }
+    
+}
