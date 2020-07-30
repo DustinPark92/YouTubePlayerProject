@@ -22,22 +22,40 @@
                                     <constraint firstAttribute="height" constant="300" id="MMQ-jN-AK2"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Wk-rP-b8M">
+                                <rect key="frame" x="10" y="354" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLf-uN-Sim">
+                                <rect key="frame" x="10" y="384.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SpD-xB-QC5" secondAttribute="trailing" id="1U6-MR-eS6"/>
                             <constraint firstItem="SpD-xB-QC5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="48d-cI-gCp"/>
+                            <constraint firstItem="zLf-uN-Sim" firstAttribute="top" secondItem="7Wk-rP-b8M" secondAttribute="bottom" constant="10" id="Die-lg-YUu"/>
                             <constraint firstItem="SpD-xB-QC5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Dxq-SB-ZEL"/>
+                            <constraint firstItem="7Wk-rP-b8M" firstAttribute="top" secondItem="SpD-xB-QC5" secondAttribute="bottom" constant="10" id="F71-YN-1Ak"/>
+                            <constraint firstItem="7Wk-rP-b8M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="R6R-Zs-9v6"/>
+                            <constraint firstItem="zLf-uN-Sim" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="afv-p1-syj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="plaryerView" destination="SpD-xB-QC5" id="Kjz-fW-ahS"/>
+                        <outlet property="playLabel" destination="7Wk-rP-b8M" id="e4g-Hb-gn3"/>
+                        <outlet property="subPlayLabel" destination="zLf-uN-Sim" id="lCY-Ut-0YQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="136"/>
+            <point key="canvasLocation" x="137.68115942028987" y="135.9375"/>
         </scene>
     </scenes>
 </document>

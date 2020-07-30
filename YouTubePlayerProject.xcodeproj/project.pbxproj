@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA05015424D2D50A00EC96ED /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA05015324D2D50A00EC96ED /* VideoModel.swift */; };
+		DA05015624D2D9AE00EC96ED /* AppKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA05015524D2D9AE00EC96ED /* AppKey.swift */; };
 		DA69CD4524D1559E00E59BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA69CD4424D1559E00E59BFB /* AppDelegate.swift */; };
 		DA69CD4724D1559E00E59BFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA69CD4624D1559E00E59BFB /* SceneDelegate.swift */; };
 		DA69CD4924D1559E00E59BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA69CD4824D1559E00E59BFB /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 		1CA6B0D24C5E2B4F0723D2C0 /* Pods-YouTubePlayerProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTubePlayerProject.debug.xcconfig"; path = "Target Support Files/Pods-YouTubePlayerProject/Pods-YouTubePlayerProject.debug.xcconfig"; sourceTree = "<group>"; };
 		3FECBF2B7DBA077DAA860875 /* Pods_YouTubePlayerProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouTubePlayerProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		647486EB7B1FC4EF8E26A4C4 /* Pods-YouTubePlayerProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTubePlayerProject.release.xcconfig"; path = "Target Support Files/Pods-YouTubePlayerProject/Pods-YouTubePlayerProject.release.xcconfig"; sourceTree = "<group>"; };
+		DA05015324D2D50A00EC96ED /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		DA05015524D2D9AE00EC96ED /* AppKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKey.swift; sourceTree = "<group>"; };
 		DA69CD4124D1559E00E59BFB /* YouTubePlayerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubePlayerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA69CD4424D1559E00E59BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA69CD4624D1559E00E59BFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				DA69CD4D24D155A000E59BFB /* Assets.xcassets */,
 				DA69CD4F24D155A000E59BFB /* LaunchScreen.storyboard */,
 				DA69CD5224D155A000E59BFB /* Info.plist */,
+				DA05015324D2D50A00EC96ED /* VideoModel.swift */,
+				DA05015524D2D9AE00EC96ED /* AppKey.swift */,
 			);
 			path = YouTubePlayerProject;
 			sourceTree = "<group>";
@@ -88,7 +94,6 @@
 				1CA6B0D24C5E2B4F0723D2C0 /* Pods-YouTubePlayerProject.debug.xcconfig */,
 				647486EB7B1FC4EF8E26A4C4 /* Pods-YouTubePlayerProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -210,6 +215,8 @@
 				DA69CD4924D1559E00E59BFB /* ViewController.swift in Sources */,
 				DA69CD4524D1559E00E59BFB /* AppDelegate.swift in Sources */,
 				DA69CD4724D1559E00E59BFB /* SceneDelegate.swift in Sources */,
+				DA05015424D2D50A00EC96ED /* VideoModel.swift in Sources */,
+				DA05015624D2D9AE00EC96ED /* AppKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -339,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
